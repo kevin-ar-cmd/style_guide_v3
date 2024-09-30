@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title> Login Form </title>
+    <link rel="stylesheet" href="C:\Users\STUDENT\Desktop\POWERFIX\Newwebsite@2/style.css">
+<html xmlns="http://www.w3.org/1999/xhtml">
+</head>
+
+<body>
+  <div class="mydiv">
+  <a href="More_Information.html" target="_blank">About Us</a>
+  <h1>POWERFIX</h1>
+  <h2> Log In </h2>
+    <p1 id="sub-head" style="color: #4CAF50;">Welcome Back!</p1><br>
+    <p2>You must enter your details to log In.</p2>
+</h1>        
+    <form action="#" method="POST">     
+    <label for="Username">Username:      
+    </label>
+    <input type="text"        
+      id="Username"       
+      name="first"       
+      placeholder="Enter your Username" autocomplete="on" required>
+    <label for="password">       
+      Password:</label>
+    <input type="password"   
+      id="password"            
+      name="password"
+      placeholder="Enter your Password" required>
+    <input type ="checkbox" id = "chk" onclick="solve("myfunction")"> show password </input>
+    <script src="pwd_chk.js"></script>
+    <button> 
+        <type="button"   
+    onclick="solve(value="login")" name="login" >  Submit 
+    </button>
+    </form>
+     <a href="PhoneNo_Password_Reset.html" target="_blank">Forgot password?</a>
+    </a>
+    <p>Not registered?
+    <a href="Registration.html" target="_blank">Create an account</a>
+   </a>
+  </div>
+</body>
+</html>
+</body>
